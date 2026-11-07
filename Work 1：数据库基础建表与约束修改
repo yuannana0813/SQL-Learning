@@ -1,0 +1,23 @@
+# Work 1：关系型数据库架构与完整性约束
+
+> **实训环境**：SQL Server
+> **完成日期**：2026-11-04
+> **参考资料**：《SQL语句-02：数据表的操作》
+> **核心技能**：`CREATE TABLE`、`ALTER TABLE`、主键/外键/唯一/检查约束
+
+---
+
+## 一、 基础建表与默认值 (CREATE TABLE & DEFAULT)
+
+在创建数据表时，除了定义列名和数据类型，我们还可以使用 `DEFAULT` 关键字为字段设置默认值。
+
+**📝 案例代码 (例 3-7)：**
+```sql
+CREATE TABLE S ( 
+    SNo CHAR(6), 
+    SN VARCHAR(10), 
+    Sex NCHAR(1) DEFAULT '男', -- 缺省值为“男”
+    Age INT, 
+    Dept NVARCHAR(20)
+);
+
