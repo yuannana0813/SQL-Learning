@@ -1,4 +1,4 @@
-<img width="377" height="232" alt="image" src="https://github.com/user-attachments/assets/3c8907b6-0d58-42cc-958e-ea527cb73d68" /># 💻 我的 SQL 学习与实训记录
+# 💻 我的 SQL 学习与实训记录
 
 欢迎来到我的数据库学习仓库！这里记录了我学习 SQL (SQL Server) 的每一次练习与代码。
 
